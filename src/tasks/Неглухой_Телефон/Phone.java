@@ -1,4 +1,4 @@
-package tasks;
+package tasks.Неглухой_Телефон;
 
 import java.util.Scanner;
 
