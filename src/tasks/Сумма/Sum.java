@@ -1,4 +1,4 @@
-package tasks.Sum;
+package tasks.Сумма;
 
 import java.util.Scanner;
 

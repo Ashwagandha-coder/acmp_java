@@ -1,4 +1,4 @@
-package tasks.Sum;
+package tasks.Сумма;
 
 public class SumValue {
 

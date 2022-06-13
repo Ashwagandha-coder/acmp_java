@@ -2,7 +2,7 @@ package test;
 
 
 import org.junit.jupiter.api.BeforeEach;
-import tasks.Sum.SumValue;
+import tasks.Сумма.SumValue;
 
 
 import static org.junit.jupiter.api.Assertions.*;
