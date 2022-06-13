@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Больше_Меньше/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Больше_Меньше/CompareValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CompareValueTest.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Больше-Меньше and test">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Орешки/CheckNuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Орешки/Nuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CheckNutsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Sum/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Сумма/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Sum/SumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Сумма/SumValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/SumValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SumValueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +64,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tasks.Орешки" />
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompareValueTest">
+  <component name="RunManager" selected="JUnit.CheckNutsTest">
     <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.Больше_Меньше.Compare" />
       <module name="acmp_java_1000" />
@@ -84,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Phone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Неглухой_Телефон.Phone" />
+    <configuration name="tasks.Орешки.Nuts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Орешки.Nuts" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Неглухой_Телефон.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,15 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tasks.Сумма.Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Сумма.Sum" />
+    <configuration name="CheckNutsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Неглухой_Телефон.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckNutsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckNutsTest" />
+        <item itemvalue="Application.tasks.Орешки.Nuts" />
         <item itemvalue="JUnit.CompareValueTest" />
         <item itemvalue="Application.Compare" />
         <item itemvalue="JUnit.SumValueTest" />
-        <item itemvalue="Application.tasks.Сумма.Sum" />
-        <item itemvalue="Application.tasks.Неглухой_Телефон.Phone" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655138193093</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ready task Больше-Меньше and test">
+      <created>1655138969010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655138969010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +205,7 @@
     <MESSAGE value="ready task Phone.java" />
     <MESSAGE value="refactoring and ready task sum and test" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="ready task Больше-Меньше and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task Больше-Меньше and test" />
   </component>
 </project>
