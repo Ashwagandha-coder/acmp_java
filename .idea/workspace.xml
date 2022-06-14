@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Больше-Меньше and test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Орешки/CheckNuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Орешки/Nuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CheckNutsTest.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Орешки and test">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Эния/Enya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Эния/PaymentEnya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PaymentEnyaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -68,13 +68,13 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CheckNutsTest">
-    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Больше_Меньше.Compare" />
+  <component name="RunManager" selected="JUnit.PaymentEnyaTest">
+    <configuration name="Enya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Эния.Enya" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Больше_Меньше.*" />
+          <option name="PATTERN" value="tasks.Эния.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,16 +125,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentEnyaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Sum.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.Sum" />
-      <option name="MAIN_CLASS_NAME" value="test.Sum.SumValueTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PaymentEnyaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentEnyaTest" />
+        <item itemvalue="Application.Enya" />
         <item itemvalue="JUnit.CheckNutsTest" />
         <item itemvalue="Application.tasks.Орешки.Nuts" />
         <item itemvalue="JUnit.CompareValueTest" />
-        <item itemvalue="Application.Compare" />
-        <item itemvalue="JUnit.SumValueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655138969010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ready task Орешки and test">
+      <created>1655139928261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655139928261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +213,7 @@
     <MESSAGE value="refactoring and ready task sum and test" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="ready task Больше-Меньше and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task Больше-Меньше and test" />
+    <MESSAGE value="ready task Орешки and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task Орешки and test" />
   </component>
 </project>
