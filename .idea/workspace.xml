@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Орешки and test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Эния/Enya.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Эния/PaymentEnya.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PaymentEnyaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Эния and test">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Fun.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +14,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -64,8 +62,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="tasks.Орешки" />
       <recent name="test" />
+      <recent name="tasks.Орешки" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PaymentEnyaTest">
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655139928261</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ready task Эния and test">
+      <created>1655204225112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655204225112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +219,7 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="ready task Больше-Меньше and test" />
     <MESSAGE value="ready task Орешки and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task Орешки and test" />
+    <MESSAGE value="ready task Эния and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task Эния and test" />
   </component>
 </project>
