@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="refactoring 2">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Гулливер/Gulliver.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Gulliver and test">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Два_Бандита/CountJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Два_Бандита/Gangsters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CountJarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -67,13 +69,13 @@
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MatrassTest">
-    <configuration name="Enya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Эния.Enya" />
+  <component name="RunManager" selected="JUnit.CountJarTest">
+    <configuration name="Gangsters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Два_Бандита.Gangsters" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Эния.*" />
+          <option name="PATTERN" value="tasks.Два_Бандита.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +96,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountJarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="acmp_java_1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CountJarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatrassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
@@ -109,21 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentEnyaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="acmp_java_1000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PaymentEnyaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunKt" />
       <module name="acmp_java_1000" />
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountJarTest" />
+        <item itemvalue="Application.Gangsters" />
         <item itemvalue="JUnit.MatrassTest" />
         <item itemvalue="Application.Gulliver" />
         <item itemvalue="Kotlin.FunKt" />
-        <item itemvalue="JUnit.PaymentEnyaTest" />
-        <item itemvalue="Application.Enya" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655204820640</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ready task Gulliver and test">
+      <created>1655372905660</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655372905660</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +237,7 @@
     <MESSAGE value="ready task Эния and test" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring 2" />
+    <MESSAGE value="ready task Gulliver and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task Gulliver and test" />
   </component>
 </project>
