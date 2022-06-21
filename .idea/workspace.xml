@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Gulliver and test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Два_Бандита/CountJar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Два_Бандита/Gangsters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CountJarTest.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Gangsters.java and test">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Зарплата/MoneyWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Зарплата/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/PaymentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -34,6 +34,10 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/tasks/Зарплата/MoneyWork.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tasks/Зарплата/Payment.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,7 +73,7 @@
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountJarTest">
+  <component name="RunManager" selected="JUnit.PaymentTest">
     <configuration name="Gangsters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.Два_Бандита.Gangsters" />
       <module name="acmp_java_1000" />
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Gulliver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Гулливер.Gulliver" />
+    <configuration name="MoneyWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Зарплата.MoneyWork" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Гулливер.*" />
+          <option name="PATTERN" value="tasks.Зарплата.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,20 +130,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunKt" />
+    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PaymentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentTest" />
+        <item itemvalue="Application.MoneyWork" />
         <item itemvalue="JUnit.CountJarTest" />
         <item itemvalue="Application.Gangsters" />
         <item itemvalue="JUnit.MatrassTest" />
-        <item itemvalue="Application.Gulliver" />
-        <item itemvalue="Kotlin.FunKt" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655372905660</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ready task Gangsters.java and test">
+      <created>1655374871668</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655374871668</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +257,7 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring 2" />
     <MESSAGE value="ready task Gulliver and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task Gulliver and test" />
+    <MESSAGE value="ready task Gangsters.java and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task Gangsters.java and test" />
   </component>
 </project>
