@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task and test Unix">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Бинарные_числа/Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Бинарные_числа/Do.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task and test Binary">
+      <change beforePath="$PROJECT_DIR$/src/tasks/Бинарные_числа/Do.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Бинарные_числа/Do.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655987776918</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ready task and test Binary">
+      <created>1655993878694</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655993878694</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +308,7 @@
     <MESSAGE value="ready task and test Arifmetics" />
     <MESSAGE value="ready task and Basketball" />
     <MESSAGE value="ready task and test Unix" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task and test Unix" />
+    <MESSAGE value="ready task and test Binary" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task and test Binary" />
   </component>
 </project>

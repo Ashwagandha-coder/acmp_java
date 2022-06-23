@@ -9,7 +9,6 @@ public class Do {
         else
             System.out.println("NO");
 
-        System.out.println((Math.log(value) / Math.log(2)));
 
 
     }
