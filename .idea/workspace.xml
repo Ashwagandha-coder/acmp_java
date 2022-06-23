@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Gangsters.java and test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Зарплата/MoneyWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Зарплата/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PaymentTest.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task and test Payment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655374871668</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ready task and test Payment">
+      <created>1655797587585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797587585</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +262,7 @@
     <MESSAGE value="refactoring 2" />
     <MESSAGE value="ready task Gulliver and test" />
     <MESSAGE value="ready task Gangsters.java and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task Gangsters.java and test" />
+    <MESSAGE value="ready task and test Payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task and test Payment" />
   </component>
 </project>
