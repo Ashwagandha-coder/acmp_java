@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task and test Arifmetics">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Баскетбол/Basketball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Баскетбол/CompareTeam.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task and Basketball">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Unix/TranslatorValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Unix/Unix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TranslatorValueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,7 +73,7 @@
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Basketball">
+  <component name="RunManager" selected="Application.Unix">
     <configuration name="Basketball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.Баскетбол.Basketball" />
       <module name="acmp_java_1000" />
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Игра.Game" />
+    <configuration name="Unix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Unix.Unix" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Игра.*" />
+          <option name="PATTERN" value="tasks.Unix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,21 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="acmp_java_1000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PaymentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PaymentValueGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
@@ -144,13 +130,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TranslatorValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="acmp_java_1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TranslatorValueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Unix" />
+        <item itemvalue="JUnit.TranslatorValueTest" />
         <item itemvalue="Application.Basketball" />
         <item itemvalue="JUnit.CheckValueArifmeticsTest" />
         <item itemvalue="JUnit.PaymentValueGameTest" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="JUnit.PaymentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655980740980</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ready task and Basketball">
+      <created>1655982433226</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655982433226</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +297,7 @@
     <MESSAGE value="add package" />
     <MESSAGE value="ready task and test Game" />
     <MESSAGE value="ready task and test Arifmetics" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task and test Arifmetics" />
+    <MESSAGE value="ready task and Basketball" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready task and Basketball" />
   </component>
 </project>
