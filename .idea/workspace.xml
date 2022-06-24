@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task and test Binary">
-      <change beforePath="$PROJECT_DIR$/src/tasks/Бинарные_числа/Do.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Бинарные_числа/Do.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Мышки/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Мышки/MouseTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Мышки/Other.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,13 +75,13 @@
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Binary">
-    <configuration name="Basketball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Баскетбол.Basketball" />
+  <component name="RunManager" selected="JUnit.CheckTest">
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Бинарные_числа.Binary" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Баскетбол.*" />
+          <option name="PATTERN" value="tasks.Бинарные_числа.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Бинарные_числа.Binary" />
+    <configuration name="MouseTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Мышки.MouseTask" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Бинарные_числа.*" />
+          <option name="PATTERN" value="tasks.Мышки.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckValueArifmeticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +124,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CheckValueArifmeticsTest" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckTest" />
+        <item itemvalue="Application.MouseTask" />
         <item itemvalue="Application.Binary" />
         <item itemvalue="Application.Unix" />
         <item itemvalue="JUnit.TranslatorValueTest" />
-        <item itemvalue="Application.Basketball" />
-        <item itemvalue="JUnit.CheckValueArifmeticsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655993878694</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="refactoring">
+      <created>1655995579067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655995579067</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +310,6 @@
     <MESSAGE value="ready task Больше-Меньше and test" />
     <MESSAGE value="ready task Орешки and test" />
     <MESSAGE value="ready task Эния and test" />
-    <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring 2" />
     <MESSAGE value="ready task Gulliver and test" />
     <MESSAGE value="ready task Gangsters.java and test" />
@@ -309,6 +320,7 @@
     <MESSAGE value="ready task and Basketball" />
     <MESSAGE value="ready task and test Unix" />
     <MESSAGE value="ready task and test Binary" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task and test Binary" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
