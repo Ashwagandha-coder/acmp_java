@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready task Gangsters.java and test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Зарплата/MoneyWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Зарплата/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/PaymentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="task and test MouseTask">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Монетки/Money.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,13 +71,13 @@
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentTest">
-    <configuration name="Gangsters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Два_Бандита.Gangsters" />
+  <component name="RunManager" selected="JUnit.CheckTest">
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Бинарные_числа.Binary" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Два_Бандита.*" />
+          <option name="PATTERN" value="tasks.Бинарные_числа.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Зарплата.MoneyWork" />
+    <configuration name="MouseTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Мышки.MouseTask" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Зарплата.*" />
+          <option name="PATTERN" value="tasks.Мышки.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,7 +98,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountJarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Unix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Unix.Unix" />
+      <module name="acmp_java_1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.Unix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +120,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CountJarTest" />
+      <option name="MAIN_CLASS_NAME" value="test.CheckTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TranslatorValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
@@ -124,22 +135,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MatrassTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="acmp_java_1000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.PaymentTest" />
+      <option name="MAIN_CLASS_NAME" value="test.TranslatorValueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaymentTest" />
-        <item itemvalue="Application.MoneyWork" />
-        <item itemvalue="JUnit.CountJarTest" />
-        <item itemvalue="Application.Gangsters" />
-        <item itemvalue="JUnit.MatrassTest" />
+        <item itemvalue="JUnit.CheckTest" />
+        <item itemvalue="Application.MouseTask" />
+        <item itemvalue="Application.Binary" />
+        <item itemvalue="Application.Unix" />
+        <item itemvalue="JUnit.TranslatorValueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +230,70 @@
       <option name="project" value="LOCAL" />
       <updated>1655374871668</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ready task and test Payment">
+      <created>1655797587585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797587585</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add package">
+      <created>1655978600417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655978600417</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ready task and test Game">
+      <created>1655980003691</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655980003691</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ready task and test Arifmetics">
+      <created>1655980740980</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655980740980</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ready task and Basketball">
+      <created>1655982433226</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655982433226</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ready task and test Unix">
+      <created>1655987776918</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655987776918</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ready task and test Binary">
+      <created>1655993878694</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655993878694</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactoring">
+      <created>1655995579067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655995579067</updated>
+    </task>
+    <task id="LOCAL-00019" summary="task and test MouseTask">
+      <created>1656087215633</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656087215633</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,10 +313,18 @@
     <MESSAGE value="ready task Больше-Меньше and test" />
     <MESSAGE value="ready task Орешки and test" />
     <MESSAGE value="ready task Эния and test" />
-    <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring 2" />
     <MESSAGE value="ready task Gulliver and test" />
     <MESSAGE value="ready task Gangsters.java and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready task Gangsters.java and test" />
+    <MESSAGE value="ready task and test Payment" />
+    <MESSAGE value="add package" />
+    <MESSAGE value="ready task and test Game" />
+    <MESSAGE value="ready task and test Arifmetics" />
+    <MESSAGE value="ready task and Basketball" />
+    <MESSAGE value="ready task and test Unix" />
+    <MESSAGE value="ready task and test Binary" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="task and test MouseTask" />
+    <option name="LAST_COMMIT_MESSAGE" value="task and test MouseTask" />
   </component>
 </project>
