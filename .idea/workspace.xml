@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready tak and test ProgrammerDay">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Счастливый_Билет/CompareTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Счастливый_Билет/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="ready tak and test Ticket">
+      <change beforePath="$PROJECT_DIR$/src/tasks/Счастливый_Билет/CompareTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Счастливый_Билет/CompareTicket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -309,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656228085506</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ready tak and test Ticket">
+      <created>1656229517589</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656229517589</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +348,8 @@
     <MESSAGE value="task and test MouseTask" />
     <MESSAGE value="add file" />
     <MESSAGE value="ready tak and test ProgrammerDay" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready tak and test ProgrammerDay" />
+    <MESSAGE value="ready tak and test Ticket" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready tak and test Ticket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
