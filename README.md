@@ -5,7 +5,7 @@
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
-Src:= https://acmp.ru/
+source:= https://acmp.ru/
 
 ![other](https://img.shields.io/badge/statistic-In%20progress...-blue)
 
