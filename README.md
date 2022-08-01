@@ -7,7 +7,7 @@
 
 ![acmp](https://user-images.githubusercontent.com/58209188/173552381-8c231f45-f535-4ac6-80db-351bac69789e.png)
 
-https://img.shields.io/badge/statistic-In%20progress...-blue
+![other](https://img.shields.io/badge/statistic-In%20progress...-blue)
 
 Задачи в порядке возрастания сложности:
 
