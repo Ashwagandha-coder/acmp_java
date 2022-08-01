@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="done task Repair and no test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Ремонт/PaymentColorTest.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="refactoring and write test">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Разворот/OutputNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Разворот/Reversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Ремонт/PaymentColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Ремонт/PaymentColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/Ремонт/Repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Ремонт/Repair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,13 +75,13 @@
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentColorTest">
-    <configuration name="Day" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.День_Программиста.Day" />
+  <component name="RunManager" selected="Application.Reversal">
+    <configuration name="Repair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Ремонт.Repair" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.День_Программиста.*" />
+          <option name="PATTERN" value="tasks.Ремонт.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Repair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Ремонт.Repair" />
+    <configuration name="Reversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Разворот.Reversal" />
       <module name="acmp_java_1000" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasks.Ремонт.*" />
+          <option name="PATTERN" value="tasks.Разворот.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Reversal" />
         <item itemvalue="JUnit.PaymentColorTest" />
         <item itemvalue="Application.Repair" />
         <item itemvalue="JUnit.CompareTicketTest" />
         <item itemvalue="Application.Ticket" />
-        <item itemvalue="Application.Day" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659294500452</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="refactoring and write test">
+      <created>1659335675022</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659335675023</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +375,8 @@
     <MESSAGE value="ready tak and test Ticket" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="done task Repair and no test" />
-    <option name="LAST_COMMIT_MESSAGE" value="done task Repair and no test" />
+    <MESSAGE value="refactoring and write test" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring and write test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
