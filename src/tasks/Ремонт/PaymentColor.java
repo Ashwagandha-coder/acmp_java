@@ -8,6 +8,18 @@ public class PaymentColor {
     private int weight;
     private int hight;
 
+    public void setLenght(int lenght) {
+        this.lenght = lenght;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public void setHight(int hight) {
+        this.hight = hight;
+    }
+
     public void initValue() {
 
         Scanner scanner = new Scanner(System.in);
@@ -18,10 +30,13 @@ public class PaymentColor {
 
     }
 
-    public void countBank() {
+    public int countBank() {
 
 
-        System.out.println(lenght * weight / 16);
+        if((lenght * weight % 16) > 0)
+            return 1;
+        else
+            return lenght * weight / 16;
 
     }
 

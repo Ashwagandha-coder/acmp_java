@@ -7,7 +7,7 @@ public class Repair {
        PaymentColor paymentColor = new PaymentColor();
 
        paymentColor.initValue();
-       paymentColor.countBank();
+        System.out.println(paymentColor.countBank());
     }
 }
 
