@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="refactoring and write test">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Разворот/OutputNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/Разворот/Reversal.java" afterDir="false" />
+    <list default="true" id="2d9977b2-bc52-4774-87ac-225f3905d926" name="Changes" comment="done task OutputNumbers">
+      <change afterPath="$PROJECT_DIR$/src/tasks/Торт/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Торт/CutCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Торт/CutCakeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,12 +71,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="tasks.Торт" />
       <recent name="tasks.Ремонт" />
       <recent name="test" />
       <recent name="tasks.Орешки" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reversal">
+  <component name="RunManager" selected="JUnit.CutCakeTest">
     <configuration name="Repair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.Ремонт.Repair" />
       <module name="acmp_java_1000" />
@@ -102,19 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ticket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Счастливый_Билет.Ticket" />
-      <module name="acmp_java_1000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.Счастливый_Билет.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompareTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="acmp_java_1000" />
       <extension name="coverage">
@@ -125,6 +114,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.CompareTicketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CutCakeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="acmp_java_1000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tasks.Торт.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tasks.Торт" />
+      <option name="MAIN_CLASS_NAME" value="tasks.Торт.CutCakeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CutCakeTest" />
         <item itemvalue="Application.Reversal" />
         <item itemvalue="JUnit.PaymentColorTest" />
         <item itemvalue="Application.Repair" />
         <item itemvalue="JUnit.CompareTicketTest" />
-        <item itemvalue="Application.Ticket" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659335675023</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="done task OutputNumbers">
+      <created>1659337769884</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659337769884</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +387,8 @@
     <MESSAGE value="refactoring" />
     <MESSAGE value="done task Repair and no test" />
     <MESSAGE value="refactoring and write test" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and write test" />
+    <MESSAGE value="done task OutputNumbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="done task OutputNumbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
